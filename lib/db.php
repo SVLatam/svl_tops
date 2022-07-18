@@ -6,19 +6,12 @@ use PDOException;
 
 trait db
 {
-    private $host = "45.58.56.30";
-    private $user = "adminpanel";
-    private $password = "obidiotapia";
-    private $db = "svlmexico";
+    private $host = "ip";
+    private $user = "usr";
+    private $password = "pw";
+    private $db = "db";
     private $charset = "utf8mb4";
 
-    /*
-    new const MYSQL_HOST[] = "db.serverscstrike.com";
-    new const MYSQL_USER[] = "scs_lwforever21";
-    new const MYSQL_PASS[] = "Fqm6b6BbC6WLERnu";
-    new const MYSQL_DATEBASE[] = "scs_lwforever21";
-
-     */
     
     private function __fnConectar( )
     {
